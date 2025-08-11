@@ -1,6 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Dashboard } from "../pages/Dashboard"
 import { NoteFound } from "../pages/NoteFound"
+import { Home } from "../pages/Home"
+import { Login } from "../pages/Login"
+import { Register } from "../pages/Register"
+
 
 const RouterApp = () => {
   return (<BrowserRouter>
