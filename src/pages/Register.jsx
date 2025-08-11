@@ -3,7 +3,26 @@ import { Layout } from "../components/Layout"
 const Register = () => {
   return (
     <Layout>
-      <p>Hola desde Register</p>
+      <h1>Registrate</h1>
+
+      <section>
+        <h2> Hola, bienvenido </h2>
+        <form>
+          <div>
+            <label>Username:</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Correo electronico</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label>Contraseña</label>
+            <input type="password" name="contraseña" />
+          </div>
+          <button>Ingresar</button>
+        </form>
+      </section>
     </Layout>
   )
 }
